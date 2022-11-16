@@ -5,6 +5,7 @@ def process_shortcut( val, index, ans ):
     lowerIdx = index - 1
     lowerStop = False
 
+    # Walk backward after taking a shortcut to see if we can save stamina
     while lowerIdx > 0:
         if lowerIdx > 0 and ans[lowerIdx] > val:
             ans[lowerIdx] = val
