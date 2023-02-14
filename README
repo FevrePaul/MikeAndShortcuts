@@ -1,7 +1,3 @@
 READ:
   Solution doesn't work with Cpython because it is too slow.
   Using Pypy works and solution is accepted. ( Pypy 3.64 )
-
-Improvements idea:
-  process all the backward walking at the end.
-
